@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SKY - Home page</title>
 
-    <link rel="stylesheet" href="/resources/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
 </head>
 <body>
     <header id="header" class="shadow">
-            <a href="/index.html"><img src="./images/logo-sky.svg" class="logo-sky"></a>
+            <a href="./index.html"><img src="./images/logo-sky.svg" class="logo-sky"></a>
 
         
 
         <div class="box-header">
-            <a href="https://www.sky.com.br/acessibilidade-na-sky?_ga=2.170826336.1952218947.1606220299-372343542.1606220299"><img src="/images/accessibility-24px.svg"></a>
-            <a href=""><img src="/images/brightness_medium-24px.svg"></a>
-            <a href=""><img src="/images/zoom_out-24px.svg"></a>
-            <a href=""><img src="/images/zoom_in-24px.svg"></a>
+            <a href="https://www.sky.com.br/acessibilidade-na-sky?_ga=2.170826336.1952218947.1606220299-372343542.1606220299"><img src="./images/accessibility-24px.svg"></a>
+            <img src="./images/brightness_medium-24px.svg" onclick="changeDarkTheme()">
+            <img src="./images/zoom_out-24px.svg" onclick="zoomOut()">
+            <img src="./images/zoom_in-24px.svg" onclick="zoomIn()">
         </div>
 
         <div class="box-header">
             <a href="https://skyplay.sky.com.br/programa?hashKey=5fa6993192e4ed000761fbc0&programType=Program&_ga=2.3031024.1952218947.1606220299-372343542.1606220299">
-                <img src="/images/play_circle_outline-24px.svg">
+                <img src="./images/play_circle_outline-24px.svg">
                 <div id="top-menu">
                     Play
                 </div>
@@ -31,12 +34,12 @@
 
         <div class="box-header">
             <a href="https://www.sky.com.br/minha-sky/login">
-                <img src="/images/person-24px.svg">
+                <img src="./images/person-24px.svg">
                 <div id="top-menu">
                     Entrar
                 </div>
             </a>
-            <a href=""><img src="/images/search-24px.svg"></a>
+            <a href=""><img src="./images/search-24px.svg"></a>
         </div>   
         
     </header>
@@ -50,16 +53,16 @@
 
     </div>
 
-    <footer class="rodape">
-        <div class="shadow">
-            <img src="/images/sky-light-default.svg" class="logo-sky">
+    <footer class="rodape" id="footer">
+        <div class="shadow" id="top-footer">
+            <img src="./images/sky-light-default.svg" class="logo-sky">
         </div>
         <div>
             <div class="box-rodape">
                 
                 <a href="https://www.sky.com.br/app?_ga=2.71645011.1952218947.1606220299-372343542.1606220299">
                     <div id="baixeApp">
-                        <img src="/images/LogoAppSKY.png" class="logo-sky-rodape">
+                        <img src="./images/LogoAppSKY.png" class="logo-sky-rodape">
                         <div id="legendaApp">
                         Baixe no seu celular o app </br>
                         Minha SKY </br>
@@ -67,10 +70,10 @@
                     </div>
                 </a>
                 <a href="https://apps.apple.com/br/app/minha-sky/id1154049541">
-                    <img src="/images/button-apple-store-light-default.svg" class="appleStore-googlePlay">
+                    <img src="./images/button-apple-store-light-default.svg" class="appleStore-googlePlay">
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=br.com.sky.selfcare&referrer=utm_source%3Dsite-opcionais%26utm_medium%3Dbutton%26utm_campaign%3Despn-extra">
-                    <img src="/images/button-google-play-light-default.svg" class="appleStore-googlePlay">
+                    <img src="./images/button-google-play-light-default.svg" class="appleStore-googlePlay">
                 </a>
 
             </div>
@@ -121,6 +124,8 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/resources/main.js"></script>
+    <script src="./resources/main.js"></script>
+    <script src="./resources/darkTheme.js"></script>
+    <script src="./resources/fontSize.js"></script>
 </body>
 </html>

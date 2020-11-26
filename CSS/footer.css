@@ -1,0 +1,64 @@
+/*RODAPÉ*/
+
+.rodape {
+    background-color: rgba(170, 170, 170, 0.568);
+    display: block;
+    margin-top: 10%;
+    padding-bottom: 2%;
+
+    color: rgb(77, 77, 77);
+}
+
+#top-footer{
+    background-color: rgba(170, 170, 170, 0.568);
+    color: rgb(77, 77, 77);
+}
+
+.logo-sky-rodape {
+    display: inline-block;
+    height: 40px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#baixeApp {
+    margin-bottom: 5%;
+}
+
+#legendaApp {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    vertical-align: top;
+
+    font-weight: bold;
+}
+
+.appleStore-googlePlay{
+    width: 45%;
+    margin-left: 2%;
+}
+
+.box-rodape {
+
+    display: inline-block;
+    width: 25%;
+
+    vertical-align: top;
+
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: auto;
+
+    text-align: justify;
+}
+
+.menu-rodape {
+    font-size: 95%;
+    text-align: justify;
+
+    margin-top: 2%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}

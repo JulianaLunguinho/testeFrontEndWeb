@@ -1,0 +1,118 @@
+@media (max-width: 960px) {
+/*CABEÇALHO*/
+
+    .box-header {
+        width: 44%;
+        margin-left: 2%;
+        padding-top: 3%;
+
+        text-align: center;
+    }
+
+    .box-header img {
+        margin-left: 5%;
+    }
+
+    .logo-sky {
+        height: 50px;
+        width: 44%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+
+    }
+
+/*IMAGENS DE FILME EM DESTAQUE*/
+
+    .img-menu {
+        width: 40%;
+    }
+
+    .img-menu:hover {
+        width: 55%;
+    }
+
+/*IMAGENS DOS OUTROS FILMES*/
+
+    .img-carousel {
+        width: 25%;
+    }
+
+    .img-carousel:hover {
+        width: 30%;
+    }
+
+/*RODAPÉ*/
+
+    .box-rodape {
+        width: 40%;
+
+        font-size: 120%;
+    }
+    
+    .menu-rodape {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 450px) {
+/*CABEÇALHO*/
+
+.box-header {
+    width: 44%;
+    margin-left: 2%;
+    padding-top: 3%;
+
+    text-align: center;
+}
+
+.box-header img {
+    margin-left: 5%;
+}
+
+.logo-sky {
+    height: 50px;
+    width: 44%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+
+}
+
+/*IMAGENS DE FILME EM DESTAQUE*/
+
+    .img-menu {
+        width: 80%;
+    }
+
+    .img-menu:hover {
+        width: 90%;
+    }
+
+/*IMAGENS DOS OUTROS FILMES*/
+
+    .img-carousel {
+        width: 40%;
+    }
+
+    .img-carousel:hover {
+        width: 45%;
+    }
+
+/*RODAPÉ*/
+    
+    .menu-rodape {
+        margin-top: 5%;
+    }
+
+    .box-rodape {
+        width: 90%;
+    }
+
+    .appleStore-googlePlay{
+        width: 70%;
+    }
+
+}
+
+
